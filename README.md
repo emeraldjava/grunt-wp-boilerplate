@@ -4,6 +4,12 @@
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
+# Submodule
+
+http://wiki.eclipse.org/EGit/User_Guide#Working_with_Submodules
+
+git submodule add https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate.git root
+
 ## Installation
 If you haven't already done so, install [grunt-init][]:
 
