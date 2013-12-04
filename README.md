@@ -6,14 +6,14 @@
 
 # Submodule
 
-http://wiki.eclipse.org/EGit/User_Guide#Working_with_Submodules
+See Eclipse plugin for handling submodules
 
-git clone --recursive https://github.com/emeraldjava/grunt-wp-boilerplate.git test
+    http://wiki.eclipse.org/EGit/User_Guide#Working_with_Submodules
+    git submodule add https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate.git root
+    
+The git command to pull the repo
 
-git clone --recursive https://github.com/emeraldjava/grunt-wp-boilerplate.git C:\Users\oconnellp\.grunt-init\wp-boilerplate-emeraldjava
-
-
-git submodule add https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate.git root
+    git clone --recursive https://github.com/emeraldjava/grunt-wp-boilerplate.git C:\Users\oconnellp\\.grunt-init\wp-boilerplate-emeraldjava
 
 ## Installation
 If you haven't already done so, install [grunt-init][]:
@@ -48,12 +48,6 @@ grunt-init wp-boilerplate
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
 
 ## Screenshots
-
-![Example Command Line](https://raw.github.com/fooplugins/grunt-wp-boilerplate/master/example-command-line.png "Example Command Line")
-
-![Output Folder Structure](https://raw.github.com/fooplugins/grunt-wp-boilerplate/master/output-folder-structure.png "Output Folder Structure")
-
-![Output Plugin In WP](https://raw.github.com/fooplugins/grunt-wp-boilerplate/master/output-plugin-screen.png "Output Plugin In WP")
 
 ## Credit
 
