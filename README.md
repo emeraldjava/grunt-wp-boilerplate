@@ -8,6 +8,11 @@
 
 http://wiki.eclipse.org/EGit/User_Guide#Working_with_Submodules
 
+git clone --recursive https://github.com/emeraldjava/grunt-wp-boilerplate.git test
+
+git clone --recursive https://github.com/emeraldjava/grunt-wp-boilerplate.git C:\Users\oconnellp\.grunt-init\wp-boilerplate-emeraldjava
+
+
 git submodule add https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate.git root
 
 ## Installation
